@@ -7,3 +7,23 @@ transactions = [
 ]
 
 print("Total transactions:", len(transactions))
+
+# Practice Code
+# Variables and Types
+
+city = 'London'
+experience = 12
+score = 95.5
+
+print("City:", city)
+print("Experience:", experience)
+print("Score:", score)
+
+print(type(score))
+
+a = "10"
+b = 20
+
+print(int(a) + b)   # 30
+print(a + str(b))   # 1020
+
