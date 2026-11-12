@@ -23,3 +23,28 @@ salaries[1:4]	[3000, 3500, 4000]
 salaries[-2:]	[4000, 4500]
 salaries[::2]	[2500, 3500, 4500]
 salaries[::-1]	[4500, 4000, 3500, 3000, 2500]
+
+
+
+Reading JSON files:
+
+First import the import json class which makes Python's built-in JSON functionality available.
+
+then write the command with open (<doc name in quotes>, "r", encoding if any) as file:
+with open("document.json", "r", encoding="utf-8") as file:
+    documents = json.load(file)
+
+
+Breakdown:
+
+open() opens a file.
+"r" means read mode.
+with automatically closes the file when finished.
+json.load(file) converts the JSON content into Python objects.
+
+to write into json :
+
+with open("output.json", "w", encoding="utf-8") as file:
+    json.dump(document, file, indent=4)
+
+this creates a output.json file

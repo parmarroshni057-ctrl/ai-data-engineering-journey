@@ -1,0 +1,27 @@
+[
+    {
+        "file_name": "invoice.pdf",
+        "status": "processed",
+        "message": "Processing complete"
+    },
+    {
+        "file_name": "report.pdf",
+        "status": "pending",
+        "message": "Waiting for processing"
+    },
+    {
+        "file_name": "contract.pdf",
+        "status": "failed",
+        "message": "Investigate document"
+    },
+    {
+        "file_name": "receipt.pdf",
+        "status": "processed",
+        "message": "Processing complete"
+    },
+    {
+        "file_name": "application.pdf",
+        "status": "failed",
+        "message": "Investigate document"
+    }
+]

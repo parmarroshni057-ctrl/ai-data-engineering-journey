@@ -1,0 +1,7 @@
+[
+    {"file_name": "invoice.pdf", "status": "processed"},
+    {"file_name": "report.pdf", "status": "pending"},
+    {"file_name": "contract.pdf", "status": "failed"},
+    {"file_name": "receipt.pdf", "status": "processed"},
+    {"file_name": "application.pdf", "status": "failed"}
+]
