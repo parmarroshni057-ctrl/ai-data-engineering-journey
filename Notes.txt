@@ -48,3 +48,12 @@ with open("output.json", "w", encoding="utf-8") as file:
     json.dump(document, file, indent=4)
 
 this creates a output.json file
+
+File Modes
+
+r - read  - reads an existing file
+w - write - create or overwrite a file
+a - append - add contents at the end of an existing file
+x - exclusive creation - creates a file, fails if the file already exists
+
+

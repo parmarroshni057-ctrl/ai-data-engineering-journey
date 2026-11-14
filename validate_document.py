@@ -23,3 +23,13 @@ for document in documents:
 
 print("Valid documents:", len(valid_documents))
 print("Rejected documents:", len(rejected_documents))
+
+import json
+
+with open("valid_documents.json", "w", encoding="utf-8") as file:
+    json.dump(valid_documents, file, indent=4)
+
+with open("rejected_documents.json", "w", encoding="utf-8") as file:
+    json.dump(rejected_documents, file, indent=4)
+
+print("Validation results saved successfully")
